@@ -209,6 +209,7 @@ section {
                 .tittle {
                     display: flex;
                     align-items: center;
+                    margin-bottom: 5%;
 
                     span {
                         font-weight: bold;
@@ -243,43 +244,138 @@ section {
 
         .right {
             width: 60%;
-            height: 100vh;
+            padding: 10% 0 10%;
             display: flex;
             align-items: center;
-            background-color: #2EBB77;
+            /* background-color: #2EBB77; */
+
             img {
                 width: 24px;
                 height: 24px;
             }
 
             .table {
+                display: flex;
                 width: 90%;
-                height: 70%;
-                background-color: yellowgreen;
+                height: max-content;
+                background-color: white;
                 box-shadow: 10px 20px 64px rgba(0, 0, 0, 0.12);
                 border-radius: 20px;
 
                 .text {
-                    background-color: aqua;
+                    /* background-color: aqua; */
+                    margin-left: 3%;
                     width: 50%;
                     height: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
                     .text_body {
-                        background-color: blueviolet;
+                        /* background-color: blueviolet; */
                         display: flex;
                         flex-direction: column;
+
+                        p {
+                            font-weight: bold;
+                            font-size: 24px;
+                        }
+
                         .tick {
                             display: flex;
                             align-items: center;
+                            margin-top: 5%;
+
+                            span {
+                                font-size: 15px;
+                            }
+                        }
+
+                        button {
+                            width: 100%;
+                            background-color: #2EBB77;
+                            border: none;
+                            color: #fff;
+                            border-radius: 12px;
+                            padding: 5% 0 5% 0;
+                            margin: 10% 0 10%;
+
                         }
                     }
                 }
 
                 .choose {
+                    /* background-color: orange; */
                     width: 50%;
-                    height: 90%;
+                    margin-left: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .choose1 {
+                        width: 80%;
+                        display: flex;
+                        flex-direction: column;
+
+                        .text_bold {
+                            color: black;
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+
+                        .text_medium {
+                            color: #7E7E7E;
+                            margin: 5% 0 5%;
+                        }
+
+                        .button-container {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #f5f5f5;
+                            padding: 5px;
+                            border-radius: 12px;
+
+                            button {
+                                width: 50%;
+                                padding: 15px 20px;
+                                font-weight: bold;
+                                font-size: 15px;
+                                cursor: pointer;
+                                background-color: #f5f5f5;
+                                color: #7e7e7e;
+                                border: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            button.active {
+                                background-color: white;
+                                color: black;
+                                border-radius: 8px;
+
+                            }
+                        }
+                    }
+
+                    .price {
+                        margin-top: 5%;
+
+                        .price_first {
+                            margin-left: 5%;
+                            font-size: 20px;
+                            color: #7e7e7e;
+                            text-decoration: line-through;
+
+                        }
+
+                        .price_after {
+                            font-weight: bold;
+                            font-size: 48px;
+                        }
+                    }
                 }
             }
         }
@@ -332,7 +428,80 @@ section {
         }
 
     }
+
+    section {
+        .form {
+            .left {
+                .text {
+                    .tittle_main {
+                        font-size: 30px;
+                    }
+
+                    .content {
+                        font-size: 12px;
+                    }
+
+                    .continue {
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .table {
+                    width: 100%;
+
+                    .text {
+                        .text_body {
+                            p {
+                                font-size: 20px;
+                            }
+
+                            .tick {
+                                span {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .choose {
+                        .choose1 {
+                            .text_bold {
+                                font-size: 10px;
+                            }
+
+                            .text_medium {
+                                font-size: 8px;
+                            }
+
+                            .button-container {
+                                width: 100%;
+
+                                button {
+                                    font-size: 8px;
+                                }
+                            }
+                        }
+
+                        .price {
+                            .price_after {
+                                font-size: 30px;
+                            }
+
+                            .price_first {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 
 /*--------------------------------------------*/
 @media (max-width: 600px) {
@@ -380,6 +549,91 @@ section {
             }
         }
 
+        .banner {
+            .text_bold {
+                font-size: 30px;
+            }
+
+            .text_medium {
+                font-size: 10px;
+            }
+        }
+    }
+
+    section {
+        .form {
+            .left {
+                .text {
+                    .tittle_main {
+                        font-size: 20px;
+                    }
+
+                    .content {
+                        font-size: 8px;
+                    }
+
+                    .continue {
+                        span {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .table {
+                    width: 100%;
+
+                    .text {
+                        .text_body {
+                            p {
+                                font-size: 15px;
+                            }
+
+                            .tick {
+                                span {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            button {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+
+                    .choose {
+                        .choose1 {
+                            .text_bold {
+                                font-size: 10px;
+                            }
+
+                            .text_medium {
+                                font-size: 8px;
+                            }
+
+                            .button-container {
+                                width: 100%;
+
+                                button {
+                                    font-size: 8px;
+                                }
+                            }
+                        }
+
+                        .price {
+                            .price_after {
+                                font-size: 20px;
+                            }
+
+                            .price_first {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
