@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    color: black;
 }
 @font-face {
     font-family: PlusJakartaSans;
@@ -145,7 +146,7 @@ a:active
             position: absolute;
             left: 40%;
             top: 5%;
-            width: 40%;
+            width: 50%;
             height: 40px;
             /* background-color: #7A999C; */
         }
@@ -300,6 +301,9 @@ footer {
     .method{
         left: 16%;
         top: 15%;
+        a{
+            font-size: 20px;
+        }
     }
     a{
         font-size: 20px;
@@ -347,4 +351,125 @@ footer {
     }
 
 }
-/* ______________MEDIA__________ */
+@media screen and (min-width: 661px)and (max-width: 1260px){
+    .box-header{
+        .box-1{
+            position: absolute;
+            top: 8%;
+            left: -6%;
+            width: 53%;
+            white-space: nowrap;
+            .custom-list{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        .img{
+            position: absolute;
+            left: 35%;
+        }
+        .box-2{
+            position: absolute;
+            left: 75%;
+            top: 5%;
+            width: 25%;
+            .hotline
+            {
+                font-size: 14px;
+                white-space: nowrap;
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .rectangle-login
+    {
+        width: 70%;
+        height: 60%;
+        .media{
+            /* background-color: aqua; */
+            height: 100%;
+            position: absolute;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        p{
+            font-size: 25px;
+            top: 0;
+            left: 35%;
+            b{
+                color: #7A999C;
+            }
+        }
+    }
+    .method{
+        left: 50%;
+        top: 15%;
+        a{
+            font-size: 30px;
+        }
+    }
+    a{
+        font-size: 20px;
+    }
+    .info{
+        position: absolute;
+        left: 54%;
+        top: 35%;
+        text-align: left;
+    }
+    hr{
+        position:relative;
+    }
+    .send{
+        position: absolute;
+        top: 65%;
+        left: 54%;
+    }
+    .option
+    {
+        position: absolute;
+        left: 57.5%;
+        img{
+            display: inline;
+            margin-top: 7.6%;
+            padding-left: 15px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .error{
+        left: 20%;
+    }
+    footer {
+        position: absolute;
+        top:92%;
+        .foot1 {
+            .foot1_a {
+                .box {
+                    .teespace {
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+
+                    a {
+                        font-size: 10px;
+
+                    }
+
+                    .text {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+/* _____________MEDIA____________ */

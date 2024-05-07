@@ -1,11 +1,18 @@
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(../font/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
+}
+
 body,
 html {
     margin: 0;
     padding: 0;
+    font-family: PlusJakartaSans;
+}
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -56,10 +63,62 @@ html {
         height: 40px;
         outline: none;
     }
-    .icons{
+
+    .icons {
         position: absolute;
         top: 8.5%;
         left: 80%;
         padding-left: 9.9%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header {
+        .custom-list{
+            width: 60%;
+            margin: 5px;
+            font-size: 10px;
+        }
+    }
+    .logo{
+        input{
+            transform: scale(0.7);
+            position: absolute;
+            left: 64%;
+            width: 26%;
+        }
+        img{
+            transform: scale(0.7);
+            left: 70%;
+        }
+        .icons{
+            transform: scale(0.7);
+            padding-left: 70px;
+        }
+    }
+}
+@media screen and (min-width: 661px) and (max-width: 1200px) {
+    .header {
+        .custom-list{
+            width: 60%;
+            margin: 20px 10px 0 0;
+            font-size: 15px;
+        }
+    }
+    .logo{
+        input{
+            transform: scale(0.9);
+            position: absolute;
+            left: 64%;
+            width: 26%;
+        }
+        img{
+            transform: scale(0.9);
+            left: 70%;
+        }
+        .icons{
+            transform: scale(0.9);
+            padding-left: 70px;
+        }
     }
 }

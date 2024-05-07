@@ -110,7 +110,6 @@ section{
             padding: 20px;
             border-radius: 10px;
             margin: 20px 0 0 25%;
-            font-size: 10px;
             img{
                 float: right;
                 padding: 7px;
@@ -118,7 +117,6 @@ section{
 
         }
         .reply{
-            font-size: 10px;
             width: 700px;
             height: 100px;
             padding: 20px;
@@ -247,13 +245,17 @@ footer {
             width: 70px;
             top: 5%;
         }
+        .comments{
+            font-size: 10px;
+        }
     }
     section{
         .section-1{
+            font-size: 10px;
             .choose, .reply{ 
                 float: left;
                 margin: 10px;
-                width: 660px;          
+                width: 660px;        
             }
         }
         .section-2{
@@ -280,6 +282,72 @@ footer {
 
                     .text {
                         font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 661px) and (max-width: 1200px){
+    header{
+        .box-list{
+            position: absolute;
+            width: 56%;
+            left: 0;
+            font-size: 14px;
+            margin-left: -10px;
+            transform: scale(0.9);
+        }
+        .img{
+            img{
+                transform: scale(0.8);
+            }
+        }
+        .search{
+            transform: scale(0.8);
+        }
+        .icons{
+            position: absolute;
+            width: 70px;
+            top: 5%;
+        }
+        .comments{
+            font-size: 15px;
+        }
+    }
+    section{
+        .section-1{
+            font-size: 13px;
+            .choose, .reply{ 
+                float: left;
+                margin: 10px;
+                width: 660px;        
+            }
+        }
+        .section-2{
+            margin-top: 140%;
+            width: 100%;
+        }
+    }
+    footer {
+        position: absolute;
+        top:100%;
+        .foot1 {
+            .foot1_a {
+                .box {
+                    .teespace {
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+
+                    a {
+                        font-size: 13px;
+
+                    }
+
+                    .text {
+                        font-size: 13px;
                     }
                 }
             }
