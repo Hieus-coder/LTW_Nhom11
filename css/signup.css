@@ -1,9 +1,14 @@
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(../font/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
+}
 body, html{
     margin: 0;
     padding: 0;
+    font-family: PlusJakartaSans;
 }
 .rectangle-login{
     width: 734px;
@@ -119,7 +124,7 @@ a:active
     }
     .box-1{
         position: absolute;
-        width: 20%;
+        width: 24%;
         height: 20px;
         margin-left: 10%;
         margin-top: 6%;
@@ -246,10 +251,10 @@ footer {
             position: absolute;
             top: 10%;
             left: -12%;
-            width: 53%;
+            width: 55%;
             .custom-list{
                 a{
-                    font-size: 15px;
+                    font-size: 13px;
                 }
             }
         }
@@ -271,7 +276,7 @@ footer {
                 font-size: 14px;
                 
                 a{
-                    font-size: 10px;
+                    font-size: 8px;
                 }
             }
         }
@@ -284,7 +289,7 @@ footer {
             display: none;
         }
         p{
-            font-size: 25px;
+            font-size: 20px;
             top: 0;
             left: 32%;
             b{
@@ -324,7 +329,7 @@ footer {
                 .box {
                     .teespace {
                         p {
-                            font-size: 15px;
+                            font-size: 10px;
                         }
                     }
 
@@ -334,7 +339,7 @@ footer {
                     }
 
                     .text {
-                        font-size: 15px;
+                        font-size: 10px;
                     }
                 }
             }
