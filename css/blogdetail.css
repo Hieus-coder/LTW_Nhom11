@@ -1,0 +1,65 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    z-index: 0;
+
+    .img {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5%;
+    }
+}
+
+.custom-list {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 26%;
+    height: 50px;
+    /* background-color: aquamarine; */
+
+    .list {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+}
+
+.logo {
+    img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 72%;
+        top: 8.5%;
+    }
+
+    input {
+        border-radius: 7px;
+        border: #EEEEEE solid 2px;
+        position: absolute;
+        top: 7%;
+        left: 70.7%;
+        padding-left: 50px;
+        width: 230px;
+        height: 40px;
+        outline: none;
+    }
+    .icons{
+        position: absolute;
+        top: 8.5%;
+        left: 80%;
+        padding-left: 9.9%;
+    }
+}
