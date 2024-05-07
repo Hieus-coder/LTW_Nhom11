@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeSpace</title>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="shortcut icon" href="../img_hieu/main_icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="header_body">
+            <div class="menu">
+                <div class="list-menu">
+                    <div class="menu1">
+                        <a href="Home.html" class="menu2">
+                            Home
+                            <div class="dropdown">
+                                <a href="link1">Link 1</a>
+                                <a href="link2">Link 2</a>
+                                <a href="link3">Link 3</a>
+                                <a href="link4">Link 4</a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="#" class="menu2">
+                            TeeSpace
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="#" class="menu2" style="color: #2EBB77;"> Shop
+                            <div class="dropdown">
+                                <a href="shop.html" style="color: #2EBB77;">Shop</a>
+                                <a href="custom.html">Custom</a>
+                                <a href="link3">Link 3</a>
+                                <a href="link4">Link 4</a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="#" class="menu2">
+                            Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon">
+                <div class="search_box">
+                    <a class="icon_search" href="#"> <img src="../img_hieu/search_icon.png" alt=""
+                            width=" 100%"></a>
+                    <input class="search_task" type="text" name="search" placeholder="Search..." id="search">
+                </div>
+                <a class="icon_menu" href="#"> <img src="../img_hieu/favorite_icon.png" alt="" width="100%"></a>
+                <a class="icon_menu" href="#"> <img src="../img_hieu/cart_icon.png" alt="" width="100%"></a>
+            </div>
+
+            <div class="box_logo">
+                <div class="logo">
+                    <img src="../img_hieu/main_icon1.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <p class="text_bold">Shop</p>
+            <span class="text_medium">Home
+                <hr> Shop
+            </span>
+        </div>
+    </header>
+
+    <section>
+        <div class="section_body">
+            <div class="list_choose">
+                <div class="list_choose_body">
+                    <div class="search">
+                        <span class="text_bold">Seach</span>
+                        <div class="search_box">
+                            <input class="search_task" type="text" name="search" placeholder="Search products…"
+                                id="search">
+                            <a class="icon_search" href="#"> <img src="../img_hieu/search_icon.png" alt="seach"
+                                    width=" 100%"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text_bold">Product categories</span>
+                        <button class="filter_quantity">Hoodie <span>11</span></button>
+                        <button class="filter_quantity">Kids <span>4</span></button>
+                        <button class="filter_quantity">Long Sleeves <span>0</span></button>
+                        <button class="filter_quantity">Product Designer <span>2</span></button>
+                        <button class="filter_quantity">Sweater <span>2</span></button>
+                        <button class="filter_quantity">T-shirt <span>5</span></button>
+                    </div>
+
+                    <div class="choose_price">
+                        <p class="text_bold">Filter by price</p>
+                        <div class="line-container">
+                            <div class="line" data-left-value="10" data-right-value="160">
+                                <div class="draggable draggable-left"></div>
+                                <div class="draggable draggable-right"></div>
+                            </div>
+                            <div class="value-display value-left"></div>
+                            <div class="value-display value-right"></div>
+                        </div>
+                        <div class="price">
+                            <div style="display: flex; align-items: center;">
+                                <span style="color: #7e7e7e; font-size: 15px;">Price: </span>
+                                <div class="price-display"></div>
+                            </div>
+                            <button>Filter</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="text_bold">Filter by Color</span>
+                        <button class="filter_quantity">
+                            <div class="filter_by" style="background-color: black;"></div>Black <span>14</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by" style="background-color: brown;"></div>Brown <span>13</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by" style="background-color: red;"></div>Red <span>13</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by" style="background-color: white;"></div>White <span>13</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by" style="background-color: yellow;"></div>Yellow <span>13</span>
+                        </button>
+                    </div>
+
+                    <div>
+                        <span class="text_bold">Filter by Size</span>
+                        <button class="filter_quantity">2XL <span>14</span></button>
+                        <button class="filter_quantity">3XL <span>14</span></button>
+                        <button class="filter_quantity">L <span>14</span></button>
+                        <button class="filter_quantity">M <span>14</span></button>
+                        <button class="filter_quantity">S <span>14</span></button>
+                        <button class="filter_quantity">XL <span>14</span></button>
+                    </div>
+
+                    <div>
+                        <span class="text_bold">Filter by Material</span>
+                        <button class="filter_quantity">
+                            <div class="filter_by"><img src="../img_hieu/Material_1.png" alt="Material"
+                                    width="100%"></div>Glass <span>14</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by"><img src="../img_hieu/Material_2.png" alt="Material"
+                                    width="100%"></div>Metal <span>14</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by"><img src="../img_hieu/Material_3.png" alt="Material"
+                                    width="100%"></div>Paper <span>14</span>
+                        </button>
+                        <button class="filter_quantity">
+                            <div class="filter_by"><img src="../img_hieu/Material_4.png" alt="Material"
+                                    width="100%"></div>Wood <span>14</span>
+                        </button>
+                    </div>
+
+                    <div class="Filter_price">
+                        <span class="text_bold">Price filter</span>
+                        <button style="color: black;">All</button>
+                        <button>$0.00 - $40.00</button>
+                        <button>$40.00 - $80.00</button>
+                        <button>$80.00 - $120.00</button>
+                        <button>$120.00 - $160.00</button>
+                    </div>
+
+                    <div class="Sort_by">
+                        <span class="text_bold">Sort by</span>
+                        <button>Popularity</button>
+                        <button>Average rating</button>
+                        <button>Lastest</button>
+                        <button>Price: low to high</button>
+                        <button>Price: high to low</button>
+                    </div>
+
+                    <div class="stoct_status">
+                        <span class="text_bold">Stoct status</span>
+                        <div>
+                            <input type="checkbox"> On sale
+                        </div>
+                        <div>
+                            <input type="checkbox"> In stock
+                        </div>
+                        <div>
+                            <input type="checkbox"> Out of stock
+                        </div>
+                        <div>
+                            <input type="checkbox"> On back order
+                        </div>
+                    </div>
+
+                    <div class="product_tags">
+                        <span class="text_bold">Product tags</span>
+                        <div>
+                            <button>Designer</button>
+                            <button>Kid</button>
+                            <button>T-Shirt</button>
+                            <button>Woman</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list_view">
+                <div class="list_vhead">
+                    <span>Showing 1-12 of 20 results</span>
+                    <div class="type_sort">
+                        <select>
+                            <option value="">Default sorting</option>
+                        </select>
+                        <div>
+                            <span>See</span>
+                            <button>
+                                <img src="../img_hieu/type_table.png" alt="" width="100%">
+                            </button>
+                            <button>
+                                <img src="../img_hieu/type_stack.png" alt="" width="100%">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list_body">
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view1.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Adult Quantity Tee</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view2.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">All-Over-Print Hoodie</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view3.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">AOP Cut & Sew Tee</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view4.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Fine Jersey Tee</span>
+                            <div class="text_sale">
+                                <span class="price_first">$28.00</span>
+                                <span class="price_after">$31.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view5.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Fit Round-neck T-shirt</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view6.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Hooded Sweatshirt</span>
+                            <div>
+                                <span class="text_bold">$28.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view7.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Kids Hoodie</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view8.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Lightweight Fashion Tee</span>
+                            <div class="text_sale">
+                                <span class="price_first">$32.00</span>
+                                <span class="price_after">$36.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view9.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Midweight Cotton Tee</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view10.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Premium Crewneck Sweatshirt</span>
+                            <div class="text_sale">
+                                <span class="price_first">$29.00</span>
+                                <span class="price_after">$39.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view11.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Premium Pullover Hoodie</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list_photo">
+                        <div class="box_photo">
+                            <div class="photo_size">
+                                <img src="../img_hieu/photo_view12.png" alt="photo_view1" width="100%">
+                            </div>
+                            <span class="text_bold">Product Price by Options</span>
+                            <div>
+                                <span class="text_bold">$26.00 - $29.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list_foot">
+                    <div>
+                        <button style="background-color: black; color: white;">1</button>
+                        <button>2</button>
+                        <button class="next_pages">
+                            <img src="../img_hieu/next_icon.png" alt="next_icon" width="100%">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot1">
+            <div class="foot1_a">
+                <div class="box">
+                    <div class="teespace">
+                        <img src="../img_hieu/main_icon.png" alt="main_icon" width="40px">
+                        <p>TeeSpace</p>
+                    </div>
+                    <a>hello@teespace.io</a>
+                    <a class="text">+02 036 038 3996</a>
+                    <a href="#">3665 Paseo Place, Suite 0960 San Diego</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Infomation</a>
+                    <a href="#">About us</a>
+                    <a href="#">Our Blog</a>
+                    <a href="#">Start a Return</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Shipping FAQs</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Usefu l Links</a>
+                    <a href="#">My Account</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Contact & Suppport</a>
+                    <a href="#">All Products</a>
+                    <a href="#">Design Product</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Any questions</a>
+                    <a class="text">hello@teespace.com</a>
+                    <a href="#">Find answers to all of your questions</a>
+                    <div class="social_task">
+                        <div class="size_icon">
+                            <a href="#"><img src="../img_hieu/twitter_icon.png" alt="twitter_icon" width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href="#"><img src="../img_hieu/facebook_icon.png" alt="facebook_icon"
+                                    width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href="#"><img src="../img_hieu/instagram_icon.png" alt="instagram_icon"
+                                    width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href="#"><img src="../img_hieu/youtube_icon.png" alt="youtube_icon" width="100%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot2">
+            <div>
+                <a href="#"><img class="pay" src="../img_hieu/applepay.png" alt="wallet"></a>
+                <a href="#"><img class="pay" src="../img_hieu/googlepay.png" alt="wallet"></a>
+                <a href="#"><img class="pay" src="../img_hieu/twoball.png" alt="wallet"></a>
+                <a href="#"><img class="pay" src="../img_hieu/opay.png" alt="wallet"></a>
+                <a href="#"><img class="pay" src="../img_hieu/visa.png" alt="wallet"></a>
+            </div>
+            <p>@ 2022 TeeSpace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/shop.js"></script>
+</body>
+
+</html>
