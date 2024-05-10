@@ -9,6 +9,7 @@ html {
     padding: 0;
     font-family: PlusJakartaSans;
 }
+
 /* header */
 a {
     text-decoration: none;
@@ -41,12 +42,14 @@ a {
     }
 
 }
-.notification{
+
+.notification {
     background-color: #F5F5F5;
     margin-top: 4.5%;
     text-align: center;
     padding: 15px 0 15px 0;
 }
+
 .logo {
     img {
         width: 20px;
@@ -75,37 +78,46 @@ a {
         padding-left: 9.9%;
     }
 }
+
 /* body */
-.align{
+.align {
     background-color: aqua;
     position: relative;
-    .body{
+
+    .body {
         /* background-color: black; */
         width: 80%;
-        margin: 3% 0 0 10% ;
+        margin: 7% 0 0 10%;
         display: flex;
-        .line-1{
+
+        .line-1 {
             width: 25%;
             padding: 10px;
             background-color: pink;
-            img{
-                width: 20px;
-                height: 20px;
-                position: absolute;
-                left: 22%;
-                top: 15%;
-                opacity: 0.4;
+
+            .search {
+                img {
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: 22%;
+                    top: 5.2%;
+                    opacity: 0.4;
+                }
             }
-            input{
+
+            input {
                 width: 200px;
                 height: 35px;
                 border: #EEEEEE solid 2px;
                 padding-left: 14px;
                 border-radius: 10px;
             }
-            .blog{
+
+            .blog {
                 padding: 15px 0 10px 0;
-                .number{
+
+                .number {
                     display: flex;
                     background-color: black;
                     float: right;
@@ -113,68 +125,116 @@ a {
                     height: 20px;
                 }
             }
+
+            .latestpost {
+                /* background-color: aqua; */
+                padding-bottom: 20px;
+
+                img {
+                    top: 98%;
+                    left: 10%;
+                    width: 100px;
+                    height: 100px;
+                    opacity: 1;
+                }
+
+                .text {
+                    /* background-color: #2EBB77; */
+                    width: 175px;
+                    height: 100px;
+                    position: absolute;
+                    left: 18.5%;
+                    font-size: 11px;
+                    
+                    b{
+                        font-size: 13px;
+                        text-align: left;
+                    }
+                }
+            }
         }
-        .line-2{
+
+        .line-2 {
             width: 75%;
             background-color: blue;
             padding: 10px;
+            display: flex;
+            justify-content: center;
+
+            button {
+                height: 30px;
+                color: #2EBB77;
+                border: none;
+                border-radius: 20px;
+                background-color: #F5F5F5;
+            }
         }
     }
 }
+
 /* media */
 @media screen and (max-width: 660px) {
     .header {
-        .custom-list{
+        .custom-list {
             width: 60%;
             margin: 5px;
             font-size: 10px;
         }
     }
-    .logo{
-        input{
+
+    .logo {
+        input {
             transform: scale(0.7);
             position: absolute;
             left: 64%;
             width: 26%;
         }
-        img{
+
+        img {
             transform: scale(0.7);
             left: 70%;
         }
-        .icons{
+
+        .icons {
             transform: scale(0.7);
             padding-left: 70px;
         }
     }
-    .notification{
+
+    .notification {
         margin: 16.9% 0 0 0;
     }
 }
+
 @media screen and (min-width: 661px) and (max-width: 1200px) {
     .header {
-        .custom-list{
+        .custom-list {
             width: 41%;
             margin: 20px 10px 0 0;
             font-size: 15px;
         }
     }
-    .logo{
-        input{
+
+    .logo {
+        input {
             transform: scale(0.9);
             position: absolute;
             left: 64%;
             width: 26%;
         }
-        img{
+
+        img {
             transform: scale(0.9);
             left: 68%;
         }
-        .icons{
+
+        .icons {
             transform: scale(0.9);
             padding-left: 15%;
         }
     }
-    .notification{
+
+    .notification {
         margin: 10% 0 0 0;
     }
 
