@@ -145,8 +145,8 @@ a {
                     position: absolute;
                     left: 18.5%;
                     font-size: 11px;
-                    
-                    b{
+
+                    b {
                         font-size: 13px;
                         text-align: left;
                     }
@@ -168,10 +168,121 @@ a {
                 border-radius: 20px;
                 background-color: #F5F5F5;
             }
+
+            b {
+                padding-top: 50px;
+                position: absolute;
+                font-size: 25px;
+            }
+
+            p {
+                position: absolute;
+                padding: 70px 0 0 0;
+
+                b {
+                    position: absolute;
+                    font-size: 15px;
+                    top: 24.5%;
+                    margin-left: 2%;
+                }
+
+            }
+            .information{
+                background-color: red;
+                width: 50%;
+                height: 70px;
+                display: inline-block;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
         }
     }
 }
+footer {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    .foot1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-top: 40px;
+
+        .foot1_a {
+            display: flex;
+            width: 90%;
+
+            .box {
+                float: left;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+
+                .teespace {
+                    display: flex;
+                    align-items: center;
+                    height: 40px;
+                    margin-bottom: 20px;
+
+                    p {
+                        font-weight: bold;
+                        font-size: 25px;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    align-items: center;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: black;
+                }
+
+                a {
+                    margin-bottom: 20px;
+                    color: gray;
+                }
+
+                .social_task {
+                    display: flex;
+
+                    .size_icon {
+                        margin-right: 5%;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    i {
+        margin: 10px;
+    }
+
+    padding-top: 5px;
+
+    .foot2 {
+        margin-top: 2%;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .pay {
+            width: 45px;
+            height: 32px;
+            border-radius: 5px;
+        }
+    }
+}
 /* media */
 @media screen and (max-width: 660px) {
     .header {
@@ -203,6 +314,28 @@ a {
 
     .notification {
         margin: 16.9% 0 0 0;
+    }
+    footer {
+        .foot1 {
+            .foot1_a {
+                .box {
+                    .teespace {
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+
+                    a {
+                        font-size: 10px;
+
+                    }
+
+                    .text {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -237,5 +370,36 @@ a {
     .notification {
         margin: 10% 0 0 0;
     }
+    footer {
+        .foot1 {
+            .foot1_a {
+                .box {
+                    .teespace {
+                        img {
+                            width: 20px;
+                        }
 
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+
+                    a {
+                        font-size: 8px;
+
+                    }
+
+                    .text {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .foot2 {
+            p {
+                font-size: 10px;
+            }
+        }
+    }
 }
