@@ -22,7 +22,7 @@
         <img src="../img-duc/logo.png" alt="logo" class="logo">
         <div class="option">
             <input type="search" placeholder="Search...">
-            <img src="../img-duc/seach_icon.png" class="search">
+            <img src="../img-duc/seach_icon.png" class="search" style="top: 7.5%;">
             <a href=""><img src="../img-duc/star-icons.png" class="icons"></a>
             <a href=""><img src="../img-duc/bag-icons.png" class="icons"></a>
         </div>
@@ -145,7 +145,7 @@
                     <hr class="hr-1">
                     <img src="../img-duc/arrow-3.png" class="img-arrow" onclick="changeComment()">
                     <p class="back" style="opacity: 0.5;">Previous</p><br><br>
-                    <b class="back" style="left: 36%;top: 71.5%;position: absolute;">Post Gallery</b>
+                    <b class="back" style="left: 36%;top: 38.4%;position: absolute;">Post Gallery</b>
                     <hr class="hr-2">
                     <div class="Comments" id="comment-1">
                         <img src="../img-duc/amin.png">
@@ -153,7 +153,8 @@
                             <br>Suspe ndisse suscipit sagittis leo sit met condimentum essum consecte uspe ndisse
                             suscipit sagittis. Suscipit sagittis leo sit met
                             condimentum
-                            <a href="#">Website</a>
+                            <br>
+                            <a href="#"><b>Website</b></a>
                         </div>
                         <hr>
                     </div>
@@ -163,24 +164,166 @@
                             <br>Suspe ndisse suscipit sagittis leo sit met condimentum essum consecte uspe ndisse
                             suscipit sagittis. Suscipit sagittis leo sit met
                             condimentum
-                            <a href="#">Website</a>
+                            <br>
+                            <a href="#"><b>Website</b></a>
                         </div>
                         <hr>
                     </div>
                     <div class="Comments hidden" id="comment-3">
-                        <img src="../img-duc/amin.png" >
-                        <div class="main-comment"style="background-color: bisque;"><b>admin</b><br>
+                        <img src="../img-duc/amin.png">
+                        <div class="main-comment" style="background-color: bisque;"><b>admin</b><br>
                             <br>Suspe ndisse suscipit sagittis leo sit met condimentum essum consecte uspe ndisse
                             suscipit sagittis. Suscipit sagittis leo sit met
                             condimentum
-                            <a href="#">Website</a>
+                            <br>
+                            <a href="#"><b>Website</b></a>
                         </div>
                         <hr>
                     </div>
+                    <b style="font-size: 25px;">You may also like this</b>
+                    <div class="post">
+                        <a href="#">
+                            <div class="post-1"><img src="../img-duc/blog-1.png">
+                                <input type="button" value="Design Services">
+                                <input type="button" value="HaruTheme">
+                                <br><br>
+                                <b>10 Steps to Writing the Perfect Prospectus</b>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="post-1" style="margin-left: 10px;"><img src="../img-duc/blog-17.png">
+                                <input type="button" value="Design Services">
+                                <br><br>
+                                <b>Watch the Sony a9 Livestream Event Online</b>
+                            </div>
+                        </a>
+                    </div>
+                    <hr class="hr-3">
+                    <div class="comment-section">
+                        <b style="text-align: center;">There are 3 comments</b>
+                        <div class="comment">
+                            <img src="../img-duc/amin.png" alt="Avatar">
+                            <div class="comment-details">
+                                <b style="float: left;">Admin</b><br><br>
+                                <p>Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa, vitae pusem at fringilla lobor HaruTheme</p>
+                                <div class="comment-meta">
+                                    <span>July 14, 2017</span>
+                                    <button style="margin-right: 540px;">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <img src="../img-duc/amin.png" alt="Avatar">
+                            <div class="comment-details">
+                                <b>Admin</b>
+                                <p>Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa, vitae pusem at fringilla lobor HaruTheme</p>
+                                <div class="comment-meta">
+                                    <span>July 22, 2022</span>
+                                    <button style="margin-right: 530px;">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment reply-comment">
+                            <img src="../img-duc/amin.png" alt="Avatar">
+                            <div class="comment-details">
+                                <b>Admin</b><br>    
+                                <p>Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa, vitae pusem at fringilla lobor HaruTheme</p>
+                                <div class="comment-meta">
+                                    <span>July 14, 2017</span>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="comments-section">
+                        <h2>Leave us a comment</h2>
+                        <form id="comment-form" action="#" method="post">
+                          <div class="form-row">
+                            <div class="form-group">
+                              <input type="text" id="name" name="name" placeholder="Enter Your Name*" style="text-align: left;" required>
+                            </div>
+                            <div class="form-group">
+                              <input type="email" id="email" name="email" placeholder="Enter Your Email*" style="text-align: left;" required>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <textarea id="comment" name="comment" rows="4" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <input type="checkbox" id="save-info" name="save-info" style="float: left;">
+                            <label for="save-info" class="save-info">Save my name, email, and website in this browser for the next time I comment.</label>
+                          </div>
+                          <button type="submit" style="width: 150px; display: flex; margin-left: 340px;">Post Comment</button>
+                        </form>      
+                    </div>      
                 </div>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="foot1">
+            <div class="foot1_a">
+                <div class="box">
+                    <div class="teespace">
+                        <img src="../img-duc/main_icon.png" alt="" width="40px">
+                        <p>TeeSpace</p>
+                    </div>
+                    <a>hello@teespace.io</a>
+                    <a class="text">+02 036 038 3996</a>
+                    <a href="">3665 Paseo Place, Suite 0960 San Diego</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Infomation</a>
+                    <a href="">About us</a>
+                    <a href="">Our Blog</a>
+                    <a href="">Start a Return</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Shipping FAQs</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Usefu l Links</a>
+                    <a href="">My Account</a>
+                    <a href="">Shipping</a>
+                    <a href="">Contact & Suppport</a>
+                    <a href="">All Products</a>
+                    <a href="">Design Product</a>
+                </div>
+
+                <div class="box">
+                    <a class="text">Any questions</a>
+                    <a class="text">hello@teespace.com</a>
+                    <a href="">Find answers to all of your questions</a>
+                    <div class="social_task">
+                        <div class="size_icon">
+                            <a href=""><img src="../img-duc/twitter_icon.png" alt="" width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href=""><img src="../img-duc/facebook_icon.png" alt="" width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href=""><img src="../img-duc/instagram_icon.png" alt="" width="100%"></a>
+                        </div>
+                        <div class="size_icon">
+                            <a href=""><img src="../img-duc/youtube_icon.png" alt="" width="100%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot2">
+            <div>
+                <a href=""><img class="pay" src="../img-duc/applepay.png" alt="wallet"></a>
+                <a href=""><img class="pay" src="../img-duc/googlepay.png" alt="wallet"></a>
+                <a href=""><img class="pay" src="../img-duc/twoball.png" alt="wallet"></a>
+                <a href=""><img class="pay" src="../img-duc/opay.png" alt="wallet"></a>
+                <a href=""><img class="pay" src="../img-duc/visa.png" alt="wallet"></a>
+            </div>
+            <p>@ 2022 TeeSpace. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="../js/blogdetail.js"></script>
 </body>
 
