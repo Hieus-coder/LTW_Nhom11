@@ -1,0 +1,12 @@
+:root {
+    --primary: #F5F5F5;
+    --secondary: #2EBB77;
+    --text:#EEE;
+}
+html,body{
+    font-family: "Plus Jakarta Sans";
+}
+.one{
+    max-width: 1920px;
+    margin: auto;
+}
