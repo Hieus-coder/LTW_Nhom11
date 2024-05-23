@@ -2,14 +2,12 @@
     font-family: PlusJakartaSans;
     src: url(../font/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
 }
-
 body {
     margin: 0;
     padding: 0;
     font-family: PlusJakartaSans;
 
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -374,7 +372,6 @@ p {
 .comment-details {
     flex: 1;
 }
-
 .comment-details b {
     display: block;
     margin-bottom: 10px;
@@ -462,64 +459,67 @@ p {
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* Bình luận */
 #comments-section {
     margin-top: 40px;
-  }
-  
-  #comments-section h2, #comments-section h3 {
+}
+
+#comments-section h2,
+#comments-section h3 {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  #comment-form {
+}
+
+#comment-form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .form-row {
+}
+
+.form-row {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     flex: 1;
     margin-bottom: 15px;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
- 
-  #name, #email {
-    width: 100%; 
+}
+
+
+#name,
+#email {
+    width: 100%;
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 14px;
-  }
-  
-  .form-group:first-child {
+}
+
+.form-group:first-child {
     margin-right: 40px;
-  }
-  
-  .form-group textarea {
+}
+
+.form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-  }
-  
-  .form-group input[type="checkbox"] {
+}
+
+.form-group input[type="checkbox"] {
     width: auto;
     margin-right: 10px;
-  }
-  
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     padding: 10px 20px;
     background-color: #28a745;
     color: #fff;
@@ -527,35 +527,37 @@ p {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
+}
+
+button[type="submit"]:hover {
     background-color: #218838;
-  }
-  
-  #comments-count {
+}
+
+#comments-count {
     margin-top: 40px;
-  }
-  
-  #comments-list {
+}
+
+#comments-list {
     margin-top: 20px;
-  }
-  
-  .comment {
+}
+
+.comment {
     margin-bottom: 20px;
-  }
-  
-  .comment p {
+}
+
+.comment p {
     margin: 0;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #f9f9f9;
 }
-.save-info{
+
+.save-info {
     opacity: 0.5;
     margin-top: 18px;
 }
+
 footer {
     position: absolute;
     width: 100%;
