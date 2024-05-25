@@ -1,4 +1,3 @@
-
 var totalAmount = 27;
 var quantity = 1;
 
@@ -21,9 +20,8 @@ incrementButton.addEventListener('click', function () {
 decrementButton.addEventListener('click', function () {
     if (quantity > 0) {
         quantity--;
+        totalAmount -= 27;
         quantityDisplay.textContent = quantity;
-
-
         totalAmountDisplay.textContent = '$' + totalAmount;
     }
 });
@@ -34,6 +32,11 @@ clearSelectionButton.addEventListener('click', function () {
         checkbox.checked = false;
     });
     deliveryInput.value = '';
+
+    quantity = 1;
+    totalAmount = 27;
+    quantityDisplay.textContent = quantity;
+    totalAmountDisplay.textContent = '$' + totalAmount;
 });
 
 addToCartButton.addEventListener('click', function () {
