@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var line = document.querySelector('.line');
     var priceDisplay = document.querySelector('.price-display');
 
-    // Mặc định giá trị ban đầu là 10 - 160
     var leftValue = 10;
     var rightValue = 160;
 
@@ -22,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             function onMouseMove(event) {
                 if (!isDragging) return;
-                if (event.buttons !== 1) return; // Kiểm tra xem nút chuột đang được nhấn không
+                if (event.buttons !== 1) return;
 
                 var newX = event.clientX - startX;
                 var lineRect = line.getBoundingClientRect();
