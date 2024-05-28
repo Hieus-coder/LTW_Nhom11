@@ -90,22 +90,11 @@ header {
 
             }
         }
-
-        .box_logo {
-            position: relative;
-            z-index: -1;
-            height: 60px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .logo {
-                width: 140px;
-                height: 48px;
-            }
-        }
-
+        .logo-1{
+            position: absolute;
+            top: 30%;
+            left: 45%;
+        }   
         .icon {
             position: absolute;
             height: 60px;
@@ -123,6 +112,7 @@ header {
                 display: flex;
                 align-items: center;
                 box-sizing: border-box;
+                z-index: 0;
 
                 .icon_search {
                     width: 25px;
@@ -143,6 +133,7 @@ header {
 
             .search_task {
                 border: none;
+                outline: none;
             }
         }
     }
@@ -154,7 +145,7 @@ header {
         align-items: center;
         width: 100%;
         background-color: #F5F5F5;
-
+        padding-top: 20px;
         .text_bold {
             font-weight: bold;
             font-size: 40px;
@@ -165,7 +156,6 @@ header {
             font-size: 15px;
             color: #7E7E7E;
             margin-bottom: 2%;
-
             hr {
                 margin: 10px;
                 width: 20px;
