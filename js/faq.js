@@ -55,3 +55,12 @@ choose9.addEventListener("click", function () {
         }
     }
 });
+function showDropdown() {
+    var dropdownContent = document.getElementById("shopDropdownContent");
+    dropdownContent.style.display = "block";
+}
+
+function hideDropdown() {
+    var dropdownContent = document.getElementById("shopDropdownContent");
+    dropdownContent.style.display = "none";
+}

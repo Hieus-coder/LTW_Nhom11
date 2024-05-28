@@ -12,7 +12,14 @@
         <div class="box-list">
             <div class="custom-list"><a href="Home.html">HOME</a></div>
             <div class="custom-list"><a href="#">TEESPACE</a></div>
-            <div class="custom-list"><a href="shop.html">SHOP</a></div>
+            <div class="custom-list" id="shopDropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                <a>SHOP</a>
+                <div class="dropdown-content" id="shopDropdownContent">
+                    <a href="shop.html">SHOP</a>
+                    <a href="custom.html">CUSTOM</a>
+                    <a href="shop_details.html">SHOP DETAILS</a>
+                </div>
+            </div>
             <div class="custom-list"><a href="blog.html">BLOG</a></div>
         </div>    
         <div class="img"><a href=""><img src="../img-duc/logo.png"></a></div>
