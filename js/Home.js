@@ -30,3 +30,24 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+
+const slideContainer = document.getElementById('slide-container');
+        const slides = slideContainer.children;
+        let currentIndex = 0;
+
+        function showNextSlide() {
+            currentIndex++;
+            slideContainer.style.transition = 'transform 0.5s ease';
+            slideContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+            if (currentIndex === slides.length - 1) {
+                setTimeout(() => {
+                    slideContainer.style.transition = 'none';
+                    slideContainer.style.transform = 'translateX(0)';
+                    currentIndex = 0;
+                }, 500); // 500ms là thời gian của transition
+            }
+        }
+
+        setInterval(showNextSlide, 3000); // Thay đổi slide mỗi 3 giây
