@@ -11,17 +11,160 @@ body {
 }
 
 header {
-    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    img {
-        /* background-color: aliceblue; */
-        margin: 0% 0 0 42.5%;
-        position: absolute;
+    .header_body {
+        width: 90%;
+        height: 60px;
+        margin-bottom: 2%;
+        position: relative;
+
+        .menu {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            height: 60px;
+            left: 2%;
+
+            .list-menu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                .menu1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+
+                    .menu2 {
+                        color: #000000;
+                        font-size: 15px;
+                        margin-right: 20px;
+                        font-weight: bold;
+                    }
+
+                    .menu2:hover {
+                        color: #2EBB77;
+                    }
+                }
+
+                .dropdown {
+                    display: none;
+                    position: absolute;
+                    background-color: #fff;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    z-index: 1;
+                    top: 100%;
+                    left: 0;
+                    width: max-content;
+                    white-space: nowrap;
+                }
+
+                .menu1:hover .dropdown {
+                    display: block;
+                }
+
+                .dropdown a {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                .dropdown a:hover {
+                    background-color: #f0f0f0;
+                }
+
+            }
+        }
+
+        .box_logo {
+            position: relative;
+            z-index: -1;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 140px;
+                height: 48px;
+            }
+        }
+
+        .icon {
+            position: absolute;
+            height: 60px;
+            right: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .search_box {
+                border: 2px solid #EEEEEE;
+                border-radius: 12px;
+                width: 200px;
+                height: 52px;
+                right: 2%;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+
+                .icon_search {
+                    width: 25px;
+                    height: 25px;
+                    margin: 0 20px 0 10px;
+                }
+
+                input {
+                    width: 100px;
+                }
+            }
+
+            .icon_menu {
+                width: 30px;
+                height: 30px;
+                margin: 0 20px 0 20px;
+            }
+
+            .search_task {
+                border: none;
+            }
+        }
     }
 
-    padding: 30px;
-}
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #F5F5F5;
 
+        .text_bold {
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        .text_medium {
+            display: flex;
+            font-size: 15px;
+            color: #7E7E7E;
+            margin-bottom: 2%;
+
+            hr {
+                margin: 10px;
+                width: 20px;
+            }
+        }
+    }
+}
 /* Styles for the dropdown */
 .dropdown {
     position: relative;

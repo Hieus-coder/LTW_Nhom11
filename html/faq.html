@@ -9,32 +9,73 @@
 </head>
 <body>
     <header>
-        <div class="box-list">
-            <div class="custom-list"><a href="Home.html">HOME</a></div>
-            <div class="custom-list"><a href="#">TEESPACE</a></div>
-            <div class="custom-list" id="shopDropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
-                <a>SHOP</a>
-                <div class="dropdown-content" id="shopDropdownContent">
-                    <a href="shop.html">SHOP</a>
-                    <a href="custom.html">CUSTOM</a>
-                    <a href="shop_details.html">SHOP DETAILS</a>
+        <div class="header_body">
+            <div class="menu">
+                <div class="list-menu">
+                    <div class="menu1">
+                        <a href="Home.html" class="menu2"  style="color: #2EBB77;">
+                            Home
+                            <div class="dropdown">
+                                <a href="Home.html">Home</a>
+                                <a href="priceing_plan.html">Priceing Plans</a>
+                                <a href="faq.html"   style="color: #2EBB77;">FAQs</a>
+                                <a href="about.html">About Us</a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="#" class="menu2">
+                            TeeSpace
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="shop.html" class="menu2"> Shop
+                            <div class="dropdown">
+                                <a href="shop.html">Shop</a>
+                                <a href="custom.html">Custom</a>
+                                <a href="shop_details.html">Shop details</a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu1">
+                        <a href="blog.html" class="menu2">
+                            Blog
+                            <div class="dropdown">
+                                <a href="blog.html">Blog</a>
+                                <a href="blogdetail.html">Design Services</a>   
+                                <a href="service.html">Services</a>
+                                <a href="service_detail.html">Services Detail</a>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="custom-list"><a href="blog.html">BLOG</a></div>
-        </div>    
-        <div class="img"><a href=""><img src="../img-duc/logo.png"></a></div>
-        <div class="search">
-            <img src="../img-duc/seach_icon.png" alt="" srcset="">
-            <input type="search" placeholder="Search.....">
+
+            <div class="icon">
+                <div class="search_box">
+                    <a class="icon_search" href="#"> <img src="../img_hieu/search_icon.png" alt=""
+                            width=" 100%"></a>
+                    <input class="search_task" type="text" name="search" placeholder="Search..." id="search">
+                </div>
+                <a class="icon_menu" href="#"> <img src="../img_hieu/favorite_icon.png" alt="" width="100%"></a>
+                <a class="icon_menu" href="#"> <img src="../img_hieu/cart_icon.png" alt="" width="100%"></a>
+            </div>
+
+            <div class="box_logo">
+                <div class="logo">
+                    <img src="../img_hieu/main_icon1.png" alt="" width="100%">
+                </div>
+            </div>
         </div>
-        <div class="icons">
-            <a href="#"><img src="../img-duc/star-icons.png" alt=""></a>
-            <a href="#"><img src="../img-duc/bag-icons.png" alt=""></a>
-        </div>
-        <div class="comments" id="notification">
-            <b>FAQs</b>
-            <br><br>
-            <a href="Home.html">Home</a>- <a href="faq.html">FAQs</a>
+
+        <div class="banner">
+            <p class="text_bold">Shop</p>
+            <span class="text_medium">Home
+                <hr> FAQs
+            </span>
         </div>
     </header>
     <section>
