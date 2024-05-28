@@ -168,11 +168,41 @@ section {
         flex-direction: column;
         justify-content: center;
         align-self: center;
+
+        .cart {
+            width: 60%;
+            position: relative;
+            margin: 5%;
+
+            .item1 {
+                display: flex;
+                align-items: center;
+                width: max-content;
+                height: 50px;
+                .quantity-control {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .xoa {
+                        position: absolute;
+                        right: 0;                        
+                    }
+            }
+
+            .item2 {
+                margin-top: 10%;
+            }
+
+
+        }
     }
     img {
         width: 40px;
         height: 40px;
     }
+
+    
 }
 
 

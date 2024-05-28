@@ -61,9 +61,14 @@ function getCart() {
     localStorage.setItem('cart', JSON.stringify(cart));
   }
 
-  function addToCart(name, image) {
+  function addToCart(name, image, price) {
     let cart = getCart();
-    cart.push({ name: name, image: image });
+    const existingItem = cart.find(item => item.name === name);
+    if (existingItem) {
+      existingItem.quantity++;
+    } else {
+      cart.push({ name, image, price, quantity: 1 });
+    }
     saveCart(cart);
-    alert(name + ' đã được thêm vào giỏ hàng!');
+    alert(`${name} đã được thêm vào giỏ hàng!`);
   }
