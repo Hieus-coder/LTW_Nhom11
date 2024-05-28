@@ -117,7 +117,7 @@ header
 section{
     .section-1{
         position: absolute;
-        top: 47.3%;
+        top: 60.3%;
         height: 800px;
         /* background-color: aqua; */
         width: 100%;
@@ -157,7 +157,43 @@ section{
             transition: background-color 0.3s;color: 0.3s;
         }
     }
-    
+}
+.section-5{
+    .background{
+        width: 100%;
+        position: absolute;
+        top: 160%;
+    }
+    p{
+        position: absolute;
+        top: 185%;
+        left: 10%;
+        color: #FFFFFF;
+    }
+    h1{
+        position: absolute;
+        top: 170%;
+        left: 10%;
+        color: #FFFFFF;
+    }
+    .banner{
+        position: absolute;
+        top: 165%;
+        width: 350px;
+        height: 300px;
+        left: 60%;
+    }
+    input{
+        position: absolute;
+        top: 195%;
+        margin: 10px;
+        left: 9.3%;
+        color: #000;
+        border: none;
+        font-weight: 700;
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+    }
 }
 /* _______________Section__________________ */
 
@@ -170,7 +206,7 @@ footer {
     align-items: center;
     position: absolute;
     margin: 200px 0 0 0;
-    top: 100%;
+    top: 185%;
     width: 100%;
     .foot1 {
         display: flex;
@@ -290,7 +326,11 @@ footer {
             margin-top: 140%;
             width: 100%;
         }
+        
     }
+    .section-5{
+                display: none;
+            }
     footer {
         position: absolute;
         top:100%;
@@ -356,7 +396,11 @@ footer {
             margin-top: 140%;
             width: 100%;
         }
+        
     }
+    .section-5{
+            display: none;
+        }
     footer {
         position: absolute;
         top:100%;
