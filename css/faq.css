@@ -103,7 +103,7 @@ header {
         .icon {
             position: absolute;
             height: 60px;
-            right: 2%;
+            right: 3%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -167,6 +167,29 @@ header {
         }
     }
   }
+  .user_header {
+    text-align: right;
+    /* padding: 10px; */
+    position: absolute;
+    left: 92%;
+    top: 3%;
+    /* background-color: #B479D9; */
+}
+
+.user_info {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.user_info span {
+    margin-right: 10px;
+}
+
+.user_info a {
+    text-decoration: none;
+    color: #2EBB77;
+    /* display: none; */
+}
 /* _______________Header___________________ */
 
 
