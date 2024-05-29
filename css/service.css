@@ -1,6 +1,11 @@
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(../font/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
+}
+
 html,body{
-    font-family: Plus Jakarta Sans;
-  }
+  font-family: PlusJakartaSans;
+}
   header {
     .header_body {
         width: 100%;
