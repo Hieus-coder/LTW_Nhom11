@@ -50,4 +50,4 @@ const slideContainer = document.getElementById('slide-container');
             }
         }
 
-        setInterval(showNextSlide, 2000); 
+        setInterval(showNextSlide, 2500); 
