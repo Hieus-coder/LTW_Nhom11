@@ -1,6 +1,12 @@
 html,body{
-    font-family: Plus Jakarta Sans;
+  font-family: PlusJakartaSans;
 }
+
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(../font/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
+}
+
 header {
   display: flex;
   flex-direction: column;
