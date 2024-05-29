@@ -50,4 +50,4 @@ const slideContainer = document.getElementById('slide-container');
             }
         }
 
-        setInterval(showNextSlide, 3000); // Thay đổi slide mỗi 3 giây
+        setInterval(showNextSlide, 2000); 
