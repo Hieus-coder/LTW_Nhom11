@@ -24,7 +24,7 @@ function displayCart() {
         <span>${item.quantity}</span>
         <button onclick="changeQuantity(${index}, 1)">+</button>
       </div>
-      <button onclick="removeFromCart(${index})" class = "xoa">Remove</button>
+      <button onclick="removeFromCart(${index})" class = "xoa">Xóa</button>
     `;
     cartItems.appendChild(itemDiv);
   });
@@ -49,7 +49,7 @@ function changeQuantity(index, change) {
 }
 
 function checkout() {
-  alert('Proceeding to checkout');
+  alert('Đã thanh toán');
   // Add your checkout logic here
 }
 
