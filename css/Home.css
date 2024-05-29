@@ -439,7 +439,6 @@ section-d {
 
                     button {
                         background-color: #2EBB77;
-                        color: white;
                         width: 181px;
                         height: 54px;
                         border-radius: 12px;
@@ -447,7 +446,10 @@ section-d {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        margin-right: 20px;
+                        margin-right: 20px; 
+                        a {
+                            color: white;
+                        }
                     }
                 }
             }
@@ -561,7 +563,6 @@ section-e {
 
                 button {
                     background-color: #2EBB77;
-                    color: white;
                     width: 216px;
                     height: 56px;
                     border-radius: 12px;
@@ -569,7 +570,10 @@ section-e {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin-right: 20px;
+                    margin-right: 20px; 
+                    a {
+                        color: white;
+                    }
                 }
             }
         }
@@ -649,7 +653,6 @@ section-e {
 
                         .e_create_custom_button {
                             background-color: #2EBB77;
-                            color: white;
                             width: 225px;
                             height: 48px;
                             border-radius: 12px;
@@ -657,7 +660,10 @@ section-e {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            margin-right: 20px;
+                            margin-right: 20px; 
+                            a {
+                                color: white;
+                            }
                         }
                     }
                 }
@@ -703,7 +709,6 @@ section-f {
 
                 .f_button_a {
                     background-color: #2EBB77;
-                    color: white;
                     width: 151px;
                     height: 48px;
                     border-radius: 12px;
@@ -711,12 +716,16 @@ section-f {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin-right: 20px;
+                    margin-right: 20px; 
+                    a {
+                        color: white;
+
+                    }
                 }
 
                 .f_button_b {
                     background-color: white;
-                    color: black;
+                    
                     width: 151px;
                     height: 48px;
                     border-radius: 12px;
@@ -725,6 +734,9 @@ section-f {
                     align-items: center;
                     justify-content: center;
                     margin-right: 20px;
+                    a  {
+                        color: black;
+                    }
                 }
             }
         }
