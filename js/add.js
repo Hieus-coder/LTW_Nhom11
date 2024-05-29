@@ -21,7 +21,7 @@ function displayCart() {
       <p>${item.name} - $${item.price}</p>
       <div class="quantity-control">
         <button onclick="changeQuantity(${index}, -1)">-</button>
-        <span>${item.quantity}</span>
+        <span style = "margin: 0 10px 0 10px">${item.quantity}</span>
         <button onclick="changeQuantity(${index}, 1)">+</button>
       </div>
       <button onclick="removeFromCart(${index})" class = "xoa">Xóa</button>
